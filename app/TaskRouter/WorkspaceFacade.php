@@ -76,6 +76,7 @@ class WorkspaceFacade
         if (!$this->_activities) {
             $this->_activities = array();
             foreach ($this->_workspace->activities->read() as $activity) {
+                var_dump($activity);
                 $this->_activities[$activity->friendlyName] = $activity;
             }
         }
