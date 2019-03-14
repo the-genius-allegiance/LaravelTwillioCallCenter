@@ -22,10 +22,7 @@
     }
   ],
   "activities": [
-    {
-      "name": "Offline",
-      "availability": "false"
-    },
+    
     {
       "name": "Idle",
       "availability": "true"
